@@ -1,0 +1,56 @@
+/**
+ * @file New tab style.
+ * @author Alexey Ptitsyn <numidium.ru@gmail.com>
+ */
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background: #ECEFF1;
+}
+
+.quote {
+  max-width: 300px;
+  padding: 16px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #263238;
+  background: #CFD8DC;
+  
+  border-radius: 6px;
+  box-shadow: 5px 5px 15px 0 #78909C;
+
+  opacity: 0;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity .25s ease-in-out;
+}
+
+.text {
+  margin-top: 0;
+  text-align: left;
+}
+
+.author {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+/*
+.author-url,
+.author-url:link,
+.author-url:visited {
+  color: #263238;
+}
+.author-url:hover {
+  color: #EF5350;
+}
+*/

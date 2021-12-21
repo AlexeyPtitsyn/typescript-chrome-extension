@@ -1,0 +1,19 @@
+ {
+  "name": "Quote of the day",
+  "version": "1.0",
+  "description": "Typescript extension",
+  "manifest_version": 2,
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon48.png"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
